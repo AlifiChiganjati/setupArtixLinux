@@ -17,6 +17,8 @@ return {
         nls.builtins.formatting.goimports,
         nls.builtins.formatting.gofumpt,
         nls.builtins.formatting.sqlfmt,
+        nls.builtins.formatting.clang_format,
+        nls.builtins.formatting.csharpier,
         nls.builtins.diagnostics.sqlfluff,
       },
     }
