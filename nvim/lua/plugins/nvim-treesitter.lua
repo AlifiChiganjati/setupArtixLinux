@@ -17,6 +17,7 @@ return {
       "bash",
       "c",
       "cpp",
+      "kotlin",
       "c_sharp",
       "java",
       "diff",
@@ -58,6 +59,10 @@ return {
       "dockerfile",
       "gitignore",
       "query",
+      "php",
+      "java",
+      "graphql",
+      "angular",
     },
     incremental_selection = {
       enable = true,

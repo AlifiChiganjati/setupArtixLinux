@@ -20,6 +20,8 @@ return {
         nls.builtins.formatting.csharpier,
         nls.builtins.formatting.terraform_fmt,
         nls.builtins.diagnostics.terraform_validate,
+        nls.builtins.formatting.ktlint,
+        nls.builtins.diagnostics.ktlint,
       },
     }
   end,
