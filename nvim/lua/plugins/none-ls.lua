@@ -18,6 +18,8 @@ return {
         nls.builtins.formatting.gofumpt,
         nls.builtins.formatting.clang_format,
         nls.builtins.formatting.csharpier,
+        nls.builtins.formatting.terraform_fmt,
+        nls.builtins.diagnostics.terraform_validate,
       },
     }
   end,

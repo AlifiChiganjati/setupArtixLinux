@@ -1,25 +1,23 @@
 return {
-  "telescope.nvim",
-  dependencies = {
-    "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons",
-  },
-  keys = {
-      -- add a keymap to browse plugin files
-      -- stylua: ignore
-      {
-        "<leader>fp",
-        function() require("telescope.builtin").find_files({ cwd = require("lazy.core.config").options.root }) end,
-        desc = "Find Plugin File",
+  {
+    "mfussenegger/nvim-lint",
+    optional = true,
+    opts = {
+      linters_by_ft = {
+        terraform = { "terraform_validate" },
+        tf = { "terraform_validate" },
       },
+    },
   },
-  -- change some options
-  opts = {
-    defaults = {
-      layout_strategy = "horizontal",
-      layout_config = { prompt_position = "top" },
-      sorting_strategy = "ascending",
-      winblend = 0,
+  {
+    "stevearc/conform.nvim",
+    optional = true,
+    opts = {
+      formatters_by_ft = {
+        terraform = { "terraform_fmt" },
+        tf = { "terraform_fmt" },
+        ["terraform-vars"] = { "terraform_fmt" },
+      },
     },
   },
 }

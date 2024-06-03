@@ -3,9 +3,5 @@
 -- Add any additional keymaps here
 local opts = { noremap = true, silent = true }
 local map = vim.keymap.set -- for conciseness
--- Press jk fast to exit insert mode
-map("i", "jk", "<ESC>", opts)
-map("i", "kj", "<ESC>", opts)
 
---emoji
 map("i", "<c-i>", "<cmd>IconPickerInsert emoji<cr>", opts)
