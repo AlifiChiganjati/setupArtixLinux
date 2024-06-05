@@ -6,10 +6,12 @@
 [[ $- != *i* ]] && return
 PS1='[\u@\h \W]\$ '
 export EDITOR='nvim'
+export PATH=/home/chigan/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
-alias ls='eza -a --icons'
-alias ll='eza -alh --icons'
-alias lt='eza -a --tree --level=1 --icons'
+alias ls="eza --all --binary --icons"
+alias ll="eza --all --icons --binary --group --header --group-directories-first --long --git"
+alias lt="eza --all --binary --icons --group --header --group-directories-first --tree --level"
 
 # -----------------------------------------------------
 # GIT
@@ -25,8 +27,15 @@ alias gsp="git stash; git pull"
 alias gcheck="git checkout"
 
 # -----------------------------------------------------
-# START STARSHIP
+# AUTOSTART
 # -----------------------------------------------------
+
+alias dockerdu="~/bin/dockerd-rootless.sh"
+
+# -----------------------------------------------------
+# AUTOSTART
+# -----------------------------------------------------
+
 eval "$(starship init bash)"
 cmatrix
 neofetch
