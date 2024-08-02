@@ -1,6 +1,6 @@
 ## This My Daily Driver
 
-I've been using various configurations from GitHub and GitLab users, but from now on, I prefer to use BSPWM (X11) instead of Hyprland (Wayland).
+I've been using various configurations from GitHub and GitLab users.
 
 ## Get Arch Repo
 
@@ -48,7 +48,7 @@ paru -S dunst libnotify eza cmatrix-git ranger bspwm sxhkd fastfetch htop kitty 
 
 ## Inspirations
 
-The following projects have inspired me:
+The configs have inspired me:
 
 - https://github.com/th1nhhdk
 - https://gitlab.com/stephan-raabe
