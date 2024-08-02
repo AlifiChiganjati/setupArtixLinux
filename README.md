@@ -8,7 +8,7 @@ Using the [Arch repo](https://wiki.artixlinux.org/Main/Repositories)
 
 ## Get Aur Helper
 
-- Using [Paru](https://aur.archlinux.org/paru-bin) or [Yay](https:aur.archlinux.org/yay-bin)
+- Using [Paru](https://aur.archlinux.org/packages/paru-bin) or [Yay](https://aur.archlinux.org/packages/yay-bin)
 
 ## Clone My repository
 
@@ -25,7 +25,7 @@ move fonts and Wallpapers:
 ```
  mv fonts/ ~/.local/share/
 
- mv -r Wallpapers/ ~/Pictures/
+ mv Wallpapers/ ~/Pictures/
 ```
 
 move all configs:
