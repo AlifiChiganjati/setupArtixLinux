@@ -43,7 +43,7 @@ cp .bashrc ~/.bashrc
 ## Config BSPWM
 
 ```
-paru -S dunst libnotify eza cmatrix-git ranger bspwm sxhkd fastfetch htop kitty picom polybar rofi neovim xclip arandr slurp scrot starship xautolock betterlockscreen brightnessctl numlockx feh
+paru -S dunst libnotify eza cmatrix-git ranger bspwm sxhkd fastfetch htop kitty picom polybar rofi neovim xclip arandr slurp scrot starship xautolock betterlockscreen brightnessctl numlockx feh librewolf libreoffice
 ```
 
 ## Inspirations
