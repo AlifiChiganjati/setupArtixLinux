@@ -28,6 +28,13 @@ move fonts and Wallpapers:
  mv Wallpapers/ ~/Pictures/
 ```
 
+change /etc/issue with login/issue:
+```
+sudo mv /etc/issue /etc/issue.bak
+
+sudo mv login/issue /etc/issue
+```
+
 move all configs:
 
 ```
@@ -43,7 +50,7 @@ cp .bashrc ~/.bashrc
 ## Config BSPWM
 
 ```
-yay -S dunst libnotify eza cmatrix-git ranger bspwm sxhkd fastfetch htop kitty picom polybar rofi neovim xclip arandr slurp scrot starship xautolock betterlockscreen brightnessctl numlockx feh librewolf libreoffice
+yay -S xorg xorg-xinit dunst libnotify eza cmatrix-git ranger bspwm sxhkd fastfetch htop kitty picom polybar rofi neovim xclip arandr slurp scrot starship xautolock betterlockscreen brightnessctl numlockx feh librewolf libreoffice
 ```
 
 ## Inspirations
