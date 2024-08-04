@@ -36,7 +36,7 @@ alias gl="git log --graph --abbrev-commit --decorate --all --format=format:'%C(b
 # General
 # -----------------------------------------------------
 
-alias Dbeaver="GDK_BACKEND=x11 dbeaver"
+
 
 # -----------------------------------------------------
 # AUTOSTART
