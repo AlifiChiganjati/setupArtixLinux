@@ -22,6 +22,10 @@ super + b
 super + e
 	kitty -e ranger
 
+# change background
+super + w 
+  feh --bg-fill --randomize ~/Pictures/Wallpapers 
+
 # 
 # bspwm hotkeys
 #
